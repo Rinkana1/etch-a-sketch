@@ -18,5 +18,8 @@
     margin: 0;
     height: 95vh;
     width: 100vw;
-    background-color: blue;
+    display: grid;
+}
+.pixel {
+    position: relative;
 }
