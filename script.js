@@ -1,5 +1,6 @@
 const container = $('#js-container');
 const pixel = $('.pixel')
+const colors = ['#ffffff', '#dddddd', '#bbbbbb', '#999999', '#777777', '#555555', '#333333', '#000000']
 
 function createGrid(side) {
     square = side * side;
@@ -8,15 +9,15 @@ function createGrid(side) {
         divList += '<div class="pixel" id="js-pixel"></div>';
     }
     container.html(divList);
-    var columns;
-    var pixelHeight = 95 / side;
-    var pixelWidth = 100 / side;
+    var columns = '';
 
-    pixel.css({'height':`${pixelHeight}vh`,'width':`${pixelWidth}vw`})
-    
-    for(var j = 0; j < side; j++) {
-        columns += "auto ";
+    for (var j = 0; j < side; j++) {
+        columns += 'auto ';
     }
+    $('.container').css('grid-template-columns', columns)
+}
+
+function color() {
     
 }
 

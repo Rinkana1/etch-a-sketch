@@ -2,7 +2,7 @@
 In this project, I will create a makeshift sketchpad in a browser using DOM manipulation
 
 ## Tasks
-* Create a 16x16 grid of square divs
+* ~~Create a 16x16 grid of square divs~~
 * Create a hover event that changes the color of each div when the mouse hovers over it
 * Add a button to the top of the screen
     * Clears current grid

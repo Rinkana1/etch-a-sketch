@@ -21,5 +21,5 @@
     display: grid;
 }
 .pixel {
-    position: relative;
+    border: rgb(0, 0, 0) 1px;
 }
